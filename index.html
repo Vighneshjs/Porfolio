@@ -3,79 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vighnesh j s Portfolio</title>
+    <title>Vighnesh J S - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Add Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <header>
-        <div class="header-content">
-            <h1>Vighnesh j s</h1>
+        <div class="container">
+            <h1 class="logo">Vighnesh J S</h1>
             <nav>
                 <ul>
-                    <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-                    <li><a href="#projects"><i class="fas fa-briefcase"></i> Projects</a></li>
-                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <main>
-        <section id="about">
+    
+    <section id="hero">
+        <div class="container">
+            <h2 id="welcome-text">Welcome to My Portfolio </h2>
+            <p id="hero-subtext">Creative. Professional. Unique. Like a Unicorn!</p>
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
             <h2>About Me</h2>
-            <p>Hey there! I'm Vighnesh, a passionate data scientist who loves diving into data and making sense of it. I believe in the power of data to transform businesses and make impactful decisions.</p>
-            <div class="skills">
-                <h3>Skills</h3>
-                <ul>
-                    <li><span>Python</span></li>
-                    <li><span>Machine Learning</span></li>
-                    <li><span>SQL</span></li>
-                    <!-- Add more skills as needed -->
-                </ul>
-            </div>
-        </section>
-
-        <section id="projects">
+            <p>Hey there! I'm Vighnesh, a passionate data scientist who loves diving into data and making sense of it. 
+                I believe in the power of data to transform businesses and make impactful decisions....</p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="container">
             <h2>Projects</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Data Analytics Dashboard</h3>
-                    <p>A Netflix Reccomendation Engine That Reccomends Movies Like They Never Existed before.</p>
-                    <a href="https://github.com/Vighneshjs/NetflixProject" target="_blank">Check it out <i class="fab fa-github"></i></a>
+            <div class="projects-grid">
+                <div class="project">
+                    <div class="project-content">
+                        <img src="https://img.icons8.com/?size=100&id=20519&format=png&color=000000" alt="Netflix Recommendation Engine" class="project-image">
+                        <div class="project-text">
+                            <h3><a href="https://github.com/Vighneshjs/NetflixProject" target="_blank">Netflix Recommendation Engine</a></h3>
+                            <p>Developed a recommendation system using collaborative filtering techniques...</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>Machine Learning Model</h3>
-                    <p>A Robust Time-Series Model Used For Analysing Sales Trends,Patterns For Sales Prediction With Best Accuracy.</p>
-                    <a href="https://github.com/Vighneshjs/WallmartProject" target="_blank">Explore on GitHub <i class="fab fa-github"></i></a>
+                <div class="project">
+                    <div class="project-content">
+                        <img src="https://img.icons8.com/?size=100&id=SJVkIDfBngzX&format=png&color=000000" alt="Walmart Sales Data Analysis" class="project-image">
+                        <div class="project-text">
+                            <h3><a href="https://github.com/Vighneshjs/WallmartProject" target="_blank">Walmart Sales Data Analysis</a></h3>
+                            <p>Analyzed Walmart sales data to identify trends and forecast sales...</p>
+                        </div>
+                    </div>
                 </div>
-                
-                <div class="project-card">
-                    <h3>Zomato Dataset Analysis and Price Prediction </h3>
-                    <p>This project aims to predict the price of food for two people using the Zomato dataset.The dataset includes various features such as restaurant name, location, cuisine, ratings, and more, which are used to build a predictive model.</p>
-                    <a href="https://github.com/Vighneshjs/CGSGO-PROJECT" target="_blank">Explore on GitHub <i class="fab fa-github"></i></a>
-                </div>
-                
             </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Let's connect! Whether it's a project collaboration or a friendly chat, I'm all ears.</p>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> <a href="mailto:Vighneshjs2015@gmail.com">Vighneshjs2015@gmail.com</a></p>
-                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/vighnesh-js-979324266" target="_blank">LinkedIn</a></p>
-                <!-- Add more social media links -->
-            </div>
-        </section>
-    </main>
-
+        </div>
+    </section>
+    
+    
+    
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python 🐍</li>
+                <li>SQL 🗄️</li>
+                <li>Machine Learning 🤖</li>
+                <li>Data Analysis 📊</li>
+                <li>Pandas, NumPy, SciPy 🧪</li>
+                <li>Matplotlib 📉</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you would like to get in touch...</p>
+            <p>
+                <a href="mailto:vighneshjs2015@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i> vighneshjs2015@gmail.com
+                </a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/vighnesh-js-979324266/" class="contact-link">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </p>
+        </div>
+    </section>
+    
+    
     <footer>
-        <p>&copy; 2024 Vighnesh j s. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Vighnesh J S. All rights reserved. Designed with ❤️.</p>
+        </div>
     </footer>
-
-    <script src="scripts.js"></script>
+    
+    <button id="scrollTopBtn">Top</button>
+    
+    <script src="script.js"></script>
 </body>
 </html>
